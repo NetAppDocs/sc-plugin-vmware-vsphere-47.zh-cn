@@ -12,6 +12,9 @@ settings:
     version-number: '4.7'
   - name: 适用于 VMware vSphere 的 SnapCenter 插件
     url: "/sc-plugin-vmware-vsphere"
+    version-number: '4.9'
+  - name: 适用于 VMware vSphere 的 SnapCenter 插件
+    url: "/sc-plugin-vmware-vsphere-48"
     version-number: '4.8'
   - name: 适用于 VMware vSphere 的 SnapCenter 插件
     url: "/sc-plugin-vmware-vsphere-46"
