@@ -1828,7 +1828,6 @@
   <block id="3a3a5cd068731551120f43f37950768b" category="list-text">ONTAP Select</block>
   <block id="4ecac70efff8d20a57fcdc88eed604e5" category="paragraph">建议（但不要求）将 SnapCenter 标准版许可证添加到二级目标。如果二级系统上未启用 SnapCenter 标准许可证，则在执行故障转移操作后，您将无法使用 SnapCenter 。但是，要执行挂载和连接操作，需要在二级存储上安装 FlexClone 许可证。要执行还原操作，需要 SnapRestore 许可证。</block>
   <block id="35b654fd14f12a33551c1993b5321fcb" category="summary">适用于 VMware vSphere 的 SnapCenter 插件（ SCV ）是一种基于 Linux 的虚拟设备。作为独立的，它可以为 VM ，数据存储库和 VMDK 提供快速，节省空间，崩溃状态一致且 VM 一致的备份和还原操作。此外，它还可以与 SnapCenter 服务器配合使用，为 SnapCenter 应用程序专用插件在 VMware 环境中执行基于应用程序的备份和还原操作提供支持。</block>
-  <block id="8c3d0c00ea667e3e0723e5cdc6473a09" category="doc">适用于 VMware vSphere 的 SnapCenter 插件文档</block>
   <block id="75ea96b6d8c73a8d05259ac9f34d62ff" category="summary">您可以从适用于 VMware vSphere 的 SnapCenter 插件 GUI 生成支持包。</block>
   <block id="ecfc133fda25b37d408886c1a66ff36a" category="doc">从适用于 VMware vSphere 的 SnapCenter 插件 GUI 生成支持包</block>
   <block id="27425ddfb17560020340393af9842680" category="paragraph">要登录到适用于 VMware vSphere 的 SnapCenter 插件管理 GUI ，您必须知道 IP 地址和登录凭据。</block>
@@ -1930,7 +1929,6 @@
   <block id="a3d53cfe9124531cb5f9bbfefe704326" category="sidebar">用于修改内置计划的 REST API 工作流</block>
   <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">升级</block>
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">升级到同一版本的新修补程序</block>
-  <block id="3390e3575b3e341afa2b7172ff5b33a7" category="sidebar">适用于 VMware vSphere 的 SnapCenter 插件</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -1939,4 +1937,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="8a7a1ff56675136d7a0bec1d5e693833" category="sidebar">适用于VMware vSphere 4.7的SnapCenter插件文档</block>
 </blocks>
