@@ -1095,7 +1095,6 @@
   <block id="5990783a93858d845e12e401808f16f3" category="list-text">当二级存储(镜像存储)上的Snapshot副本数量达到最大限制时、在备份操作中注册备份并应用保留的活动将失败、并显示以下错误：<block ref="5a9cca26582442620c7aafc02ff929a9" prefix=" " category="inline-code"></block></block>
   <block id="7cb7ec638ee3f628b5dd7b29b735054f" category="paragraph">要更正此问题描述，请为二级存储配置 SnapMirror 保留策略，以避免达到 Snapshot 副本的最大限制。</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">有关使用基于角色的访问控制的 SnapCenter 信息</block>
-  <block id="339d9a9c6148bb34e3d15a00f296465c" category="paragraph">有关管理员如何为用户分配资源的信息，请参见<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>。</block>
   <block id="a4ba122796d9be1187615f3e4e5f759f" category="list-text">如果您希望进行 VM 一致的备份，则必须安装并运行 VMware Tools 。需要使用 VMware Tools 暂停 VM 。VVOL VM 不支持 VM 一致的备份。</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">这些向导页面上的大多数字段都是不言自明的。以下信息介绍了一些可能需要指导的字段。</block>
   <block id="406017c1f63a5ea525013c02ee27c794" category="list-text">在 VMware vSphere Web Client 的左侧导航器窗格中，单击 * 策略 * 。</block>
@@ -1338,7 +1337,6 @@
   <block id="2395290c89dc49506ab9a866577db2ea" category="cell">显示有关还原作业的概述状态信息。单击图形上的一个部分 / 状态，可在报告选项卡上查看具有该状态的作业列表。对于每个作业，此报告将列出作业 ID ，作业状态，作业名称以及作业开始和结束时间。作业名称包含 Snapshot 副本名称。例如：<block ref="13d80bb12ac7353f6e745081e5946c14" prefix=" " category="inline-code"></block>您可以下载 HTML 或 CSV 格式的报告表。您还可以下载所有作业（而不仅仅是报告中的作业）的作业监控器作业日志。</block>
   <block id="5e959015896cfd3bbb41171b7d8fc743" category="cell">虚拟机的上次保护状态或数据存储库报告</block>
   <block id="8cc0e4b5a5103db908c5596542e3c27e" category="inline-link-macro">修改配置默认值</block>
-  <block id="63c8a22424efc68577dafa3298893cc8" category="cell">显示有关 SnapCenter VMware 插件管理的 VM 和数据存储库在配置的天数内的保护状态的概述信息。默认值为 7 天。要修改属性文件中的值，请参见 <block ref="b16c4865f624e18083ce3581c0f938de" category="inline-link-macro-rx"></block>。单击主保护图表上的一个部分 / 状态，可在 * 报告 * 选项卡上查看具有该状态的 VM 或数据存储库列表。受保护 VM 和数据存储库的 VM 或数据存储库保护状态报告可显示在配置的天数内备份的 VM 或数据存储库的名称，最新的 Snapshot 副本名称以及最新备份运行的开始和结束时间。未受保护的 VM 或数据存储库的 VM 或数据存储库保护状态报告显示在配置的天数内没有任何成功备份的 VM 或数据存储库的名称。您可以下载 HTML 或 CSV 格式的报告表。您还可以下载所有作业（而不仅仅是报告中的作业）的作业监控器作业日志。刷新插件缓存后，此报告每小时刷新一次。因此，此报告可能不会显示最近备份的 VM 或数据存储库。</block>
   <block id="f71bd0a1884e2547796a0669e5a44f10" category="summary">部署适用于 VMware vSphere 的 SnapCenter 插件后，您必须完成安装。</block>
   <block id="b3b58566d772ea091ad559ad7c722828" category="doc">部署后需要执行的操作和出现的问题</block>
   <block id="624b86ee772b09351048910fc4a730dc" category="section-title">部署后需要执行的操作</block>
@@ -1472,7 +1470,6 @@
   <block id="7af76100be5ace159efb0a1fb46267ce" category="paragraph">您可以在同一个 SnapCenter 服务器 4.2 上注册多个适用于 VMware vSphere 的 SnapCenter 插件实例，以支持在 VM 上执行基于应用程序的数据保护操作。您不能在多个 SnapCenter 服务器上注册同一个适用于 VMware vSphere 的 SnapCenter 插件。</block>
   <block id="89321ccbd89a9e660bc76b0f2974632d" category="summary">SnapCenter VMware 插件采用 SSL 加密，可与客户端浏览器进行安全通信。虽然这样可以跨网启用加密数据，但创建新的自签名证书，或者使用您自己的证书颁发机构（ CA ）基础架构或第三方 CA ，可确保此证书对于您的环境是唯一的。</block>
   <block id="9668b00eae1748d51afb7f725a15301a" category="inline-link">知识库文章：如何创建和 / 或将 SSL 证书导入到适用于 VMware vSphere 的 SnapCenter 插件</block>
-  <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">请参见<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>。</block>
   <block id="7d120b899dfe322b03e6190f482e45cf" category="list-text">关闭虚拟机。</block>
   <block id="9b6393956c017962e17fd5f8075dd5ed" category="list-text">在 VMware vSphere Web Client 的左侧导航器窗格中，单击 * 存储系统 * ，然后单击 <block ref="915ca28449bbaaf9ebf3b6ab40e1c545" category="inline-image-macro-rx" type="image"></block> * 添加 * 。</block>
   <block id="233816bc50cf7e6af0a55f7c19396b63" category="list-text">在添加存储系统对话框中，输入基本 SVM 或集群信息，然后单击 * 添加 * 。</block>
@@ -1938,4 +1935,7 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="8a7a1ff56675136d7a0bec1d5e693833" category="sidebar">适用于VMware vSphere 4.7的SnapCenter插件文档</block>
+  <block id="6c0ad8767c3f6938eed064d72ff1e8e3" category="cell">显示在配置的天数内由 SnapCenter VMware 插件管理的虚拟机和数据存储区的保护状态概述信息。默认值为 7 天。要修改属性文件中的值，请参见<block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>。单击主保护图表上的部分/状态，在*报告*选项卡上查看具有该状态的虚拟机或数据存储列表。受保护虚拟机和数据存储区的虚拟机或数据存储区保护状态报告显示在配置的天数内已备份的虚拟机或数据存储区的名称、最新 Snapshot 副本名称以及最新备份运行的开始和结束时间。未受保护的虚拟机或数据存储区的虚拟机或数据存储区保护状态报告显示在配置的天数内未成功备份的虚拟机或数据存储区的名称。您可以下载 HTML 或 CSV 格式的报告表。您还可以下载所有作业的作业监视器作业日志（不仅仅是报告中的作业）。此报告在插件缓存刷新时每小时刷新一次。因此，报告可能不会显示最近备份的虚拟机或数据存储。</block>
+  <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph">请参阅<block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>。</block>
+  <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">有关管理员如何向用户分配资源的信息，请参见<block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>。</block>
 </blocks>
